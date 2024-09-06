@@ -1,0 +1,34 @@
+.projectDescription{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.descriptionDiv{
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.taskDiv{
+
+}
+
+.deleteBtn{
+    background-color: transparent;
+    border: none;
+}
+
+.deleteBtn:hover{
+    cursor: pointer;
+}
+
+.newTaskDiv{
+    height: 180px;
+    overflow: scroll;
+    margin-top: 20px;
+}

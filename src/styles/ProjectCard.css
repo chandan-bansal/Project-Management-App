@@ -1,0 +1,12 @@
+.projectCard{
+    margin-top: 10px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.projectCard:hover{
+    background-color: white;
+    color: black;
+}

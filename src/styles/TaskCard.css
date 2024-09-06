@@ -1,0 +1,13 @@
+.taskCard{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    padding: 20px;
+}
+
+.clearbtn{
+    border: none;
+    background-color: transparent;
+}
+

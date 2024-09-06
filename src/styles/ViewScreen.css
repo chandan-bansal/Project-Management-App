@@ -1,0 +1,40 @@
+.noImg{
+    height: 50px;
+    width: 50px;
+}
+
+.newProjectContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newProjectInputContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    
+}
+.buttonDiv{
+    display: flex;
+    flex-flow: row-reverse;
+}
+.formDiv{
+    display:flex;
+    flex-direction:column;
+}
+.inputText{
+    background-color: grey;
+    margin-bottom: 10px;
+}
+
+#descriptionInput{
+    height:40px;
+}
+
+.selectedProjectDiv{
+    width: 100%;
+}

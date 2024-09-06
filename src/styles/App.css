@@ -1,0 +1,35 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+.mainContainer{
+    background-color: black;
+    padding: 30px;
+    height: 100vh;
+}
+
+.childContainer{
+    display: flex;
+    background-color: white;
+    height: 100%;
+}
+
+.firstChild{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    border-radius: 0% 10% 0% 0%;
+}
+
+.secondChild{
+    display: flex;
+    flex: 2 1 auto;
+    margin-top: 20px;
+    justify-content: center;
+
+}
